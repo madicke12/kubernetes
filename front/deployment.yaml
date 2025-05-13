@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: madicke12/frontend:v5
+        image: madicke12/front:final
         ports:
         - containerPort: 80
         imagePullPolicy: Always
